@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleContraintLayout" >
         <activity
+            android:name=".ActivityLihatData"
+            android:parentActivityName=".Home_Activity"></activity>
+        android:exported="false" />
+        <activity
+            android:name=".Home_Activity"
+            android:parentActivityName=".MainActivity"/>
+        android:exported="false" />
+        <activity
             android:name=".formPendaftaran"
             android:parentActivityName=".MainActivity"
             android:exported="false" />
